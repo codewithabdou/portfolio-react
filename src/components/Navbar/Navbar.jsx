@@ -36,7 +36,7 @@ const Navbar = () => {
         className="hamburger"
         onClick={() => setMenuIsShowed((currentValue) => !currentValue)}
       >
-        {menuIsShowed ? (
+        {!menuIsShowed ? (
           <FaBars size={20} style={{ color: "white" }} />
         ) : (
           <FaTimes size={20} style={{ color: "white" }} />
