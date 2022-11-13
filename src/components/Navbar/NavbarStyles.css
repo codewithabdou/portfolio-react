@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem;
+    width: 100vw;
+    font-family: 'Outfit' , sans-serif;
+}
+
+.nav-menu{
+    display: flex;    
+}
+
+.nav-menu li {
+    padding: 0.1rem;
+    margin-right: 2rem;
+}
+
+.nav-menu li a {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
