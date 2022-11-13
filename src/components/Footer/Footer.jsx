@@ -23,16 +23,16 @@ const Footer = () => {
           </div>
         </div>
         <div className="icons">
-          <a href="https://github.com/codewithabdou" target="_blank">
+          <a href="https://github.com/codewithabdou" target="_blank" rel="noopener noreferrer">
             <FaGithub className="icon" size={50} />
           </a>
           <a
             href="https://www.facebook.com/abderrahmene.hbch/"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
           >
             <FaFacebook className="icon" size={50}  />
           </a>
-          <a href="https://www.instagram.com/abdouuu.h/" target="_blank">
+          <a href="https://www.instagram.com/abdouuu.h/" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="icon" size={50} c />
           </a>
         </div>

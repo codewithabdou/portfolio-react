@@ -9,8 +9,8 @@ const ProjectCard = ({ source, description, title }) => {
       <h1>{title}</h1>
       <p>{description}</p>
       <div className="pro-btns">
-        <a href="http://github.com/codewithabdou" target="_blank" className="btn" style={{margin : "1rem"}}>Github repo</a>
-        <a href="http://colorwar.netlify.app/" target="_blank" className="btn btn-light" style={{margin : "1rem"}}>Website</a>
+        <a href="http://github.com/codewithabdou" target="_blank" className="btn" style={{margin : "1rem"}} rel="noopener noreferrer">Github repo</a>
+        <a href="http://colorwar.netlify.app/" target="_blank" className="btn btn-light" style={{margin : "1rem"}} rel="noopener noreferrer">Website</a>
       </div>
     </div>
   );
