@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import {HeroImageSecond,Form} from "../";
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <div>
+      <HeroImageSecond
+        title={"CONTACT."}
+        description={"Let's have a chat"}
+      />
+      <Form/>
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;

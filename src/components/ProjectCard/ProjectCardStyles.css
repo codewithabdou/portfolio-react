@@ -1,0 +1,40 @@
+.card{
+    font-family: sans-serif;
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 30%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(82, 82, 82, 0.521);
+}
+
+.card h1{
+    padding: 1rem;
+}
+
+.card p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.pro-btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card img{
+    width: 100%;
+}
+
+@media screen and (max-width : 1040px) {
+    .card{
+        width: 90%;
+    }
+}

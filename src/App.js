@@ -1,16 +1,14 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import { Home, About, Projects, Contact, Navbar } from "./components";
+import { Home, About, Projects, Contact, Navbar, Footer } from "./components";
 
 import "./index.css";
 
 const App = () => {
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
+      <Navbar />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -18,8 +16,8 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
+        <Footer />
       </main>
-      <footer></footer>
     </>
   );
 };

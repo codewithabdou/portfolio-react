@@ -1,0 +1,25 @@
+.images img{
+    width: 70%;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top-image img{
+    position: relative;
+    z-index: 5;
+    transform: translate(40%,20%);
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+.bottom-image img{
+    position: relative;
+    transform: translate(10%,-40%);
+    border: 1px solid white;
+    border-radius: 1rem;
+    z-index: 4;
+}
