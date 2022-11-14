@@ -8,11 +8,14 @@
 
 body {
   background-color: black;
+  font-family: "Outfit", sans-serif;
+
 }
 
 h1,
 h4,
 p,
+h2,
 label,
 a {
   color: white;

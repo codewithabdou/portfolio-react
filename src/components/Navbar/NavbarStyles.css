@@ -66,5 +66,6 @@
 
   .hamburger {
     display: initial;
+    z-index: 10;
   }
 }
