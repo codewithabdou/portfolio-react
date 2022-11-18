@@ -4,6 +4,7 @@ import projectOneSource from "../../assets/project1.png";
 import projectTwoSource from "../../assets/project2.png";
 import projectThreeSource from "../../assets/project3.png";
 import projectFourSource from "../../assets/project4.png";
+import ImageUrl from '../../assets/projects-bg.jpg';
 
 const Projects = () => {
   const projects = [
@@ -35,6 +36,7 @@ const Projects = () => {
       <HeroImageSecond
         title={"Projects."}
         description={"Some of my most recent work"}
+        ImageUrl={ImageUrl}
       />
       <div
         style={{

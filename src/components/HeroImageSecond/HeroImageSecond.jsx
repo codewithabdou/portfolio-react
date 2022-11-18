@@ -2,13 +2,12 @@ import React from "react";
 
 import "./HeroImageSecondStyles.css";
 
-import secondImage from "../../assets/second-bg.jpg";
 
-const HeroImageSecond = ({ title, description }) => {
+const HeroImageSecond = ({ title, description,ImageUrl }) => {
   return (
     <div className="main">
       <div className="mask">
-        <img className="second-img" src={secondImage} alt="secondImage" />
+        <img className="second-img" src={ImageUrl} alt="secondImage" />
       </div>
       <div className="content">
         <h1>{title}</h1>
